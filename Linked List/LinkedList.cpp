@@ -16,10 +16,6 @@ public:
 	Node* next;
 };
 
-void insert(int data, int n) 
-{
-	
-}
 void printList(Node* n)
 {
 	while (n != NULL)
