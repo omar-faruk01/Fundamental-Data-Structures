@@ -1,6 +1,6 @@
 //==========================================================
 //
-// Title:      Omar Faruk
+// Title:      Truth Tables
 // Course:     CSC 1501
 // Lab Number: Lab 2
 // Author:     Omar Faruk
