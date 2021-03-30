@@ -1,6 +1,6 @@
 //==========================================================
 //
-// Title:      Hamming Code Transmitter
+// Title:      Hamming Code Receiver
 // Course:     CSC 1501
 // Lab Number: 10
 // Author:     Omar Faruk
