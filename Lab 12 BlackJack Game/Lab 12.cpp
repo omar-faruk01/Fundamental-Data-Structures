@@ -1,4 +1,3 @@
-
 #include <cstdlib> // For several general-purpose functions
 #include <fstream> // For file handling
 #include <iomanip> // For formatted output
@@ -39,7 +38,7 @@ int main()
 	  cout << "\nHand: ";
 	  for (int i = 0; i < j+1; i++)
 	  {
-		  if (arrHand[i] > 0)
+		  if (arrHand[i] > 0 && arrHand[i] < 11)
 		  {
 			  cout << arrHand[i] << " ";
 		  }
@@ -101,21 +100,21 @@ int main()
 	cout << "\nFinal Hand: ";
 	for (int i = 0; i < j + 1; i++)
 	{
-		if (arrHand[i] > 0)
+		if (arrHand[i] > 0 && arrHand[i] < 11)
 		{
 			cout << arrHand[i] << " ";
 		}
 	}
 	cout << "Final Dealer: ";
-	for (int i = 0; i < j + 1; i++)
+	for (int i = 0; i < j+1; i++)
 	{
-		if (arrDealer[i] > 0)
+		if (arrDealer[i] > 0 && arrDealer[i] < 11)
 		{
 			cout << arrDealer[i] << " ";
 		}
 
 	}
-	cout << endl <<"\t\t"<< total << "\t\t " << totalDealer << endl;
+	cout<< "\nTotal:" <<"\t\t"<< total << "\t\t " << totalDealer << endl;
 
 	//Printing winner
 	if (total > 21)
